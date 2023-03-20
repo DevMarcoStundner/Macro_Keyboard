@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "GL850G-HH")(type "KiCad")(uri "${KIPRJMOD}/GL850G-HH.kicad_sym")(options "")(descr ""))
+)
