@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Rotary")(type "KiCad")(uri "${KIPRJMOD}/Rotary")(options "")(descr ""))
+  (lib (name "SK6812MINI_E_Rev")(type "KiCad")(uri "${KIPRJMOD}/SK6812MINI_E/SK6812MINI_E_Rev.pretty")(options "")(descr ""))
+  (lib (name "custom")(type "KiCad")(uri "${KIPRJMOD}/custom.pretty")(options "")(descr ""))
+)
