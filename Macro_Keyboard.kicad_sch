@@ -2313,7 +2313,7 @@
     (property "Value" "100nF" (at 184.15 62.865 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 181.3052 64.77 0)
+    (property "Footprint" "" (at 181.3052 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 180.34 60.96 0)
