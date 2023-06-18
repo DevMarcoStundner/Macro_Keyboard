@@ -64,8 +64,8 @@
       39,
       40
     ],
-    "visible_layers": "ffcff33_ffffffff",
-    "zone_display_mode": 0
+    "visible_layers": "ffcff03_ffffffff",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "Macro_Keyboard.kicad_prl",
