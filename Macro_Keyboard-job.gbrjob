@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(7.0.0)"
     },
-    "CreationDate": "2023-05-17T12:54:35+02:00"
+    "CreationDate": "2023-06-18T19:00:30+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -42,24 +42,54 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "Macro_Keyboard-F_Cu.gbr",
+      "Path": "Macro_Keyboard-L1_F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Macro_Keyboard-Ground.gbr",
+      "Path": "Macro_Keyboard-L2_Ground.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Macro_Keyboard-Power.gbr",
+      "Path": "Macro_Keyboard-L3_Power.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Macro_Keyboard-B_Cu.gbr",
+      "Path": "Macro_Keyboard-L4_B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Macro_Keyboard-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Macro_Keyboard-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Macro_Keyboard-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Macro_Keyboard-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Macro_Keyboard-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Macro_Keyboard-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
     },
     {
       "Path": "Macro_Keyboard-Edge_Cuts.gbr",
@@ -84,43 +114,43 @@
     {
       "Type": "Copper",
       "Thickness": 0.04,
-      "Name": "F.Cu"
+      "Name": "L1_F.Cu"
     },
     {
       "Type": "Dielectric",
       "Thickness": 0.1,
       "Material": "FR4",
-      "Name": "F.Cu/Ground",
-      "Notes": "Type: dielectric layer 1 (from F.Cu to Ground)"
+      "Name": "L1_F.Cu/L2_Ground",
+      "Notes": "Type: dielectric layer 1 (from L1_F.Cu to L2_Ground)"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "Ground"
+      "Name": "L2_Ground"
     },
     {
       "Type": "Dielectric",
       "Thickness": 1.24,
       "Material": "FR4",
-      "Name": "Ground/Power",
-      "Notes": "Type: dielectric layer 2 (from Ground to Power)"
+      "Name": "L2_Ground/L3_Power",
+      "Notes": "Type: dielectric layer 2 (from L2_Ground to L3_Power)"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "Power"
+      "Name": "L3_Power"
     },
     {
       "Type": "Dielectric",
       "Thickness": 0.1,
       "Material": "FR4",
-      "Name": "Power/B.Cu",
-      "Notes": "Type: dielectric layer 3 (from Power to B.Cu)"
+      "Name": "L3_Power/L4_B.Cu",
+      "Notes": "Type: dielectric layer 3 (from L3_Power to L4_B.Cu)"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "B.Cu"
+      "Name": "L4_B.Cu"
     },
     {
       "Type": "SolderMask",
