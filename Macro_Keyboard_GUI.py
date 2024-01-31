@@ -2,25 +2,25 @@ import tkinter as tk
 from tkinter import ttk
 
 def button_click(button_text_var, button_name):
-    print(f"Button {button_name} wurde geklickt!")
+    print(f"Button {button_name} wurde geklickt")
     button_text_var.set(f"Aktuell gedrückter Button: {button_name}")
 
 def connect_button_click(button_text_var):
-    print("Connect-Button wurde geklickt!")
+    print("Connect-Button wurde geklickt")
     button_text_var.set("Aktuell gedrückter Button: Connect")
 
 def upload_button_click(button_text_var):
-    print("Upload-Button wurde geklickt!")
+    print("Upload-Button wurde geklickt")
     button_text_var.set("Aktuell gedrückter Button: Upload")
 
 def save_shortcut(shortcut_var, entry_widget):
     shortcut = entry_widget.get()
-    shortcut_var.set(f"Short Cut wurde gespeichert: {shortcut}")
+    shortcut_var.set(f"Short-Cut wurde gespeichert: {shortcut}")
     entry_widget.delete(0, tk.END)
 
 # Erstelle Hauptfenster
 root = tk.Tk()
-root.title("Meine GUI")
+root.title("Macro-Keyboard")
 
 # Erstelle gemeinsamen Elternframe
 main_frame = ttk.Frame(root)
@@ -48,7 +48,7 @@ upload_button.grid(row=1, column=0, padx=5, pady=3)
 
 # Erstelle Frame für die Tasten
 button_frame = ttk.Frame(main_frame)
-button_frame.grid(row=0, column=1, pady=(20, 0), sticky="ns")  # Reduziere den oberen Abstand
+button_frame.grid(row=0, column=1, pady=(20, 0), sticky="ns") 
 
 # Erstelle Tastenfeld (3x3)
 for i in range(3):
@@ -59,7 +59,7 @@ for i in range(3):
 
 # Erstelle Frame für die Eingabe und den "Speichern"-Button
 input_frame = ttk.Frame(main_frame)
-input_frame.grid(row=0, column=2, padx=(10, 10), pady=(50, 0), sticky="nsew")  # Reduziere den oberen Abstand
+input_frame.grid(row=0, column=2, padx=(10, 10), pady=(50, 0), sticky="nsew") 
 
 # Erstelle Eingabefeld
 entry = ttk.Entry(input_frame)
