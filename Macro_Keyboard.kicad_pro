@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.75,
-          "width": 2.5
+          "drill": 2.2,
+          "height": 3.8,
+          "width": 3.8
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -501,7 +501,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Macro_Keyboard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

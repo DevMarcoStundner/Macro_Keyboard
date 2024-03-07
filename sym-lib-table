@@ -5,4 +5,5 @@
   (lib (name "Oled")(type "KiCad")(uri "${KIPRJMOD}/Oled.kicad_sym")(options "")(descr ""))
   (lib (name "SK6812MINI_E")(type "KiCad")(uri "${KIPRJMOD}/SK6812MINI_E/SK6812MINI_E.kicad_sym")(options "")(descr ""))
   (lib (name "custom")(type "KiCad")(uri "${KIPRJMOD}/custom.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32_L432K")(type "KiCad")(uri "${KIPRJMOD}/STM32_L432K.kicad_sym")(options "")(descr ""))
 )
